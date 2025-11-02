@@ -158,7 +158,11 @@ export default function EnergyDiagram({
           <p className="text-gray-300 mb-2 leading-normal">
             Made by <span className="font-semibold text-white">Swastik Garg</span>
           </p>
-          <p className="text-sm text-gray-400 leading-normal">
+          <div className="text-sm leading-normal space-y-1">
+            <p className="text-gray-400">Reg No: <span className="font-semibold text-white">RA2311003012280</span></p>
+            <p className="text-gray-400">Dept: <span className="font-semibold text-white">Computing Technology</span></p>
+          </div>
+          <p className="text-sm text-gray-400 leading-normal mt-2">
             Clean and Green Energy - Exploring Renewable Energy Systems
           </p>
         </div>
